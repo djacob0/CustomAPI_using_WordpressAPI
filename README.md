@@ -31,6 +31,10 @@ GET http://localhost/wordpress/wp-json/wp/v2/posts
 Get a specific post:
 GET http://localhost/wordpress/wp-json/wp/v2/posts/{id} or 1
 
+# wordpress references
+
+- https://developer.wordpress.org/rest-api/reference/
+
 
 !!! 
 this test is tested on Node.js server using Express and Axios to connect to the WordPress API and Postman and used for API documentation and testing. 
