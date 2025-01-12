@@ -13,8 +13,8 @@ app.get('/', (req, res) => {
 
 // endpoint of the custom api to accept user details using username then POST
 app.post('/users', async (req, res) => {
-  console.log('test headers', req.headers);
-  console.log('test req body', req.body);
+  // console.log('test headers', req.headers);
+  // console.log('test req body', req.body);
 
   const { username } = req.body;
 
