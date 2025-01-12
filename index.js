@@ -5,7 +5,8 @@ const app = express();
 app.use(express.json());
 
 const port = 3000;
-const wordpressAPI = 'http://host.docker.internal/wordpress/wp-json/wp/v2/users';
+const wordpressAPI = 'http://localhost/wordpress/wp-json/wp/v2/users';
+// const wordpressAPI = 'http://host.docker.internal/wordpress/wp-json/wp/v2/users';
 
 app.get('/', (req, res) => {
   res.send('This is the custom API to fetch the list of users.');
